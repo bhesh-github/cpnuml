@@ -1,15 +1,24 @@
+.css-1m5f78l {
+  height: 100% !important;
+}
+
+// ----------------------------------
 .news-card {
   width: 100%;
-  height: max-content;
+  // height: 100%;
+  // height: max-content;
   // max-height: 445px;
   .css-o69gx8-MuiCardMedia-root {
     // height: max-content;
     max-height: 300px;
     min-height: 300px;
   }
-  .card-image {
-    height: max-content;
-  }
+  // .card-image {
+  //   // height: max-content;
+  //   // height: 900px;
+  //   // height: 70%;
+  //   min-height: 300px;
+  // }
   .text-section {
     height: max-content;
     margin: 0.2em;

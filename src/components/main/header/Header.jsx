@@ -238,6 +238,12 @@ SearchAppBar.defaultProps = {
       navigateLink: "timeline",
     },
     {
+      id: 1,
+      text: "Member Timeline",
+      linkType: "timeline",
+      navigateLink: "member-timeline",
+    },
+    {
       id: 2,
       text: "News",
       linkType: "news",
