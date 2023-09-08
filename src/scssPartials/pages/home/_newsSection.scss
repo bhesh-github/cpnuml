@@ -59,12 +59,18 @@
       margin-top: 2em;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
       gap: 1.5em;
+      .card-image {
+        min-height: 300px;
+      }
     }
     @media screen and (max-width: 765px) {
       .news-cards-first-row {
         margin-top: 1em;
         grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+
       }
     }
     .news-cards-second-row {
@@ -72,16 +78,22 @@
       margin-top: 1.5em;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
       gap: 1.5em;
+      .card-image {
+        min-height: 200px;
+      }
     }
     @media screen and (max-width: 1097px) {
       .news-cards-second-row {
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
       }
     }
     @media screen and (max-width: 650px) {
       .news-cards-second-row {
         grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
       }
     }
   }
