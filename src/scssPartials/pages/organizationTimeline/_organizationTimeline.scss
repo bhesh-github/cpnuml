@@ -1,0 +1,72 @@
+.organization-timeline-page {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .banner-section {
+      display: flex;
+      justify-content: center;
+      height: 400px;
+      width: 100%;
+      background-color: #ffffff;
+      padding-top: 1.5em;
+      padding-bottom: 1em;
+      .org-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 1269px;
+        gap: 0.5em;
+        margin: 0 0.6em;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+    @media screen and (max-width: 729px) {
+      .banner-section {
+        height: 350px;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .banner-section {
+        height: 300px;
+      }
+    }
+    @media screen and (max-width: 450px) {
+      .banner-section {
+        height: 250px;
+      }
+    }
+    .timeline-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: max-content;
+      .title-wrapper {
+        text-align: center;
+        .member-name {
+          font-weight: 600;
+          font-size: 20px;
+        }
+      }
+    }
+    .spacer {
+      height: 120px;
+      width: 100%;
+      background-color: #fff;
+    }
+  }
+}
+@media screen and (max-width: 1268px) {
+  .contents {
+    width: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+$primaryRed: #e10101;
+$primaryBlue: #2a3890;
+$primaryYellow: #febf0b;
+$primaryGrey: #3a3a3a;
+$primaryTitle: #54595f;
+$primaryTitleDarker: #343434;
+$primaryGreyBG: #efefef;
+
+@import "./scssPartials/main/header/header";
+@import "./scssPartials/forAll/accountMenu";
+@import "./scssPartials/forAll/snackBar";
+@import "./scssPartials/pages/home/home.scss";
+@import "./scssPartials/forAll/newsCard";
+@import "./scssPartials/forAll/noticeCard";
+@import "./scssPartials/main/footer";
+@import "./scssPartials/pages/news/news";
+@import "./scssPartials/pages/videos/videos";
+@import "./scssPartials/pages/notice/notice";
+@import "./scssPartials/pages/gallery/gallery";
+@import "./scssPartials/pages/archive/archive";
+@import "./scssPartials/pages/news/newsDetail";
+@import "./scssPartials/pages/notice/noticeDetail";
+@import "./scssPartials/pages/memberTimeline/memberTimeline";
+@import "./scssPartials/forAll/reactResponsiveCarousel";
+@import "./scssPartials/forAll/timeline";
+@import "./scssPartials/pages/organizationTimeline/organizationTimeline";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+}

@@ -1,0 +1,84 @@
+.videos-section {
+  display: flex;
+  justify-content: center;
+  // margin-top: 5em;
+  padding-bottom: 2em;
+  .contents {
+    padding: 1em 0.7em;
+    width: 1269px;
+    .heading-wrapper {
+      margin-top: 2.5em;
+      border-bottom: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      .title {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 0;
+        // display: inline-block;
+        // padding: 0;
+        // margin: 0;
+      }
+      .see-more {
+        cursor: pointer;
+        color: #000;
+        font-size: 18px;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .heading-wrapper {
+        margin-top: 0;
+
+        .title {
+          font-size: 35px;
+        }
+        .see-more {
+          font-size: 15px;
+        }
+      }
+    }
+    // .heading {
+    //   font-size: 50px;
+    //   font-weight: 600;
+    //   border-bottom: 1px solid #000;
+    // }
+    // @media screen and (max-width: 600px) {
+    //   .heading {
+    //     font-size: 35px;
+    //   }
+    // }
+    .videos-wrapper {
+      margin-top: 2em;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5em;
+      .video-card {
+        .react-player {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    @media screen and (max-width: 765px) {
+      .videos-wrapper {
+        margin-top: 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .videos-section {
+    margin-top: 1.5em;
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 1268px) {
+  .contents {
+    width: 100%;
+  }
+}

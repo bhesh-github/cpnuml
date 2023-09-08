@@ -1,0 +1,97 @@
+.contact-section {
+  margin-top: 5em;
+  padding-bottom: 2em;
+  background-color: $primaryGreyBG;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  .contents {
+    padding: 1.5em 0.7em;
+    width: 1269px;
+    .heading-wrapper {
+      border-bottom: 1px solid #000;
+      margin-top: 1em;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      .title {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 1.1em;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .heading-wrapper {
+        margin-top: 0.4em;
+        .title {
+          font-size: 35px;
+        }
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .heading {
+        font-size: 35px;
+      }
+    }
+
+    .cards-outer {
+      display: flex;
+      justify-content: center;
+      .info-cards {
+        margin-top: 2em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 880px;
+        gap: 1.2em;
+        .info-card {
+          padding: 1em;
+          border: 1px solid silver;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .info-icon {
+            color: #ff0000;
+            width: 30px;
+            height: 30px;
+          }
+          .title {
+            font-weight: 600;
+            font-size: 1.3em;
+          }
+          .info {
+            color: grey;
+            font-weight: 600;
+          }
+        }
+      }
+      @media screen and (max-width: 900px) {
+        .info-cards {
+          width: 100%;
+          gap: 1em;
+        }
+      }
+      @media screen and (max-width: 650px) {
+        .info-cards {
+          grid-template-columns: 1fr;
+          width: 100%;
+          gap: 1em;
+        }
+      }
+    }
+    .map-wrapper {
+      margin-top: 1.7em;
+      height: 500px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-section {
+    padding-bottom: 0.5em;
+  }
+}
+@media screen and (max-width: 1268px) {
+  .contents {
+    width: 100%;
+  }
+}
