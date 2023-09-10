@@ -1,11 +1,12 @@
 import React from "react";
 import Timeline from "../../forAll/Timeline";
-import img1 from "../../../images/timelineImages/1200x630wa.png";
-import img2 from "../../../images/timelineImages/636a463b9c7e80680e04d3c8jpeg.jpg";
-import img3 from "../../../images/timelineImages/63723be19c7e80680e0c95e9jpeg.jpg";
-import img4 from "../../../images/timelineImages/ANG2761-1637921434.jpg";
-import img5 from "../../../images/timelineImages/opposition5.jpg";
-import img6 from "../../../images/timelineImages/nepal-1.jpg";
+import img1 from "../../../images/memberTimelineImages/img1.jpg";
+import img2 from "../../../images/memberTimelineImages/img2.jpg";
+import img3 from "../../../images/memberTimelineImages/img3.jpg";
+import img4 from "../../../images/memberTimelineImages/img4.jpg";
+import img5 from "../../../images/memberTimelineImages/img5.jpg";
+import img6 from "../../../images/memberTimelineImages/img6.webp";
+import img7 from "../../../images/memberTimelineImages/img7.jpg";
 
 const MemberTimeline = ({ yearsList }) => {
   return (
@@ -82,63 +83,63 @@ MemberTimeline.defaultProps = {
     {
       id: 6,
       year: "2056",
-      image: img1,
+      image: img7,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli. Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli. Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },
     {
       id: 7,
       year: "2057",
-      image: img2,
+      image: img1,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli. Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },
     {
       id: 8,
       year: "2058",
-      image: img3,
+      image: img2,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },
     {
       id: 9,
       year: "2059",
-      image: img4,
+      image: img3,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli. Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },
     {
       id: 9,
       year: "2060",
-      image: img5,
+      image: img4,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli. Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },
     {
       id: 10,
       year: "2061",
-      image: img6,
+      image: img5,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },
     {
       id: 11,
       year: "2062",
-      image: img1,
+      image: img6,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli. Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },
     {
       id: 12,
       year: "2063",
-      image: img2,
+      image: img7,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli. Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },
     {
       id: 13,
       year: "2064",
-      image: img3,
+      image: img1,
       brief:
         "Born in Terhathum District, Eastern Nepal; as the eldest son of father Mohan Prasad and Mother Madhumaya Oli",
     },

@@ -6,13 +6,17 @@ import { BsFillShareFill, BsWhatsapp, BsSkype } from "react-icons/bs";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { LuMail } from "react-icons/lu";
 
+
+// --------images------------
+import img1 from '../../../images/noticeDetail/kp-sharma-oli-combodia-visit-2023-epardafas.jpg'
+
 const NoticeDetail = ({ news }) => {
   return (
     <div className="notice-detail-page">
       <div className="contents">
         <div className="main-column">
           <img
-            src="https://fileswarehouse.com/cpn-uml/news/vSwxmjIqk4w06m3wEb0TeKXWbSufcvefIFdth0Li.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=SDDK3YIDD6U0DLO3AEYN%2F20230829%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230829T055027Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=10dafee81057300e416dc8c239a11243dbfdfbf7e2d69ed647ae8f3b37d745c9"
+            src={img1}
             alt=""
             className="show-image"
           />
